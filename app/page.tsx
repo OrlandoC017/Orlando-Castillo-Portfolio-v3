@@ -29,17 +29,17 @@ export default function Home() {
         <h1 className="hero-title">Hi, I'm Orlando Castillo</h1>
         <p className="hero-desc">A passionate web developer crafting beautiful and functional web experiences with Next.js, React, and modern web technologies.</p>
         <div className="hero-icons">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hero-icon-link">
+          <a href="https://github.com/OrlandoC017" target="_blank" rel="noopener noreferrer" className="hero-icon-link">
             <Github size={24} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hero-icon-link">
+          <a href="https://www.linkedin.com/in/orlando-castillo-01/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="hero-icon-link">
             <Linkedin size={24} />
           </a>
           <a href="#contact" className="hero-icon-link">
             <FileUser size={24} />
           </a>
         </div>
-        <a href="#projects" className="hero-btn">View My Work</a>
+        <button onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })} className="hero-btn">View My Work</button>
       </section>
 
       {/* Tech Stack Section */}

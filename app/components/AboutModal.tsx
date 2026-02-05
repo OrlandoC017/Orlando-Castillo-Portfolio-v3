@@ -35,8 +35,10 @@ export default function AboutModal({ show, onClose }: { show: boolean; onClose: 
         <div className="modal-left">
           <h2>About Me</h2>
           <div className="modal-about-text">
-            {/* Edit this info about yourself */}
-            <p>Hi! I'm Orlando Castillo, a web developer passionate about building beautiful and functional web experiences. (Edit this text yourself!)</p>
+            <p>
+              Hi! I'm Orlando Castillo, a web developer passionate about building beautiful and functional web experiences.<br /><br />
+              If you're looking for a developer who combines technical expertise with creativity and a drive for results, let's connect! I'm eager to bring my skills and energy to a forward-thinking team. <b>Recruiters and hiring managers:</b> feel free to reach out—I'd love to discuss how I can contribute to your organization and help build something amazing together.
+            </p>
           </div>
           <div className="modal-tech-stack">
             <div className="modal-tech-item">
