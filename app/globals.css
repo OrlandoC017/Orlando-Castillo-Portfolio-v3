@@ -388,6 +388,7 @@ body {
   box-shadow: 0 4px 24px 0 rgba(30,41,59,0.12);
   transition: background 0.2s;
   text-decoration: none;
+  margin-top: 30px;
 }
 .hero-btn:hover {
   background: #6366f1;

@@ -42,22 +42,22 @@ export default function AboutModal({ show, onClose }: { show: boolean; onClose: 
           </div>
           <div className="modal-tech-stack">
             <div className="modal-tech-item">
-              <img src="/react.svg" alt="React" title="React" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
             </div>
             <div className="modal-tech-item">
-              <img src="/next-js.svg" alt="Next.js" title="Next.js" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" title="Next.js" />
             </div>
             <div className="modal-tech-item">
-              <img src="/typescript.svg" alt="TypeScript" title="TypeScript" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" />
             </div>
             <div className="modal-tech-item">
-              <img src="/javascript.svg" alt="JavaScript" title="JavaScript" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
             </div>
             <div className="modal-tech-item">
-              <img src="/css3.svg" alt="CSS3" title="CSS3" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
             </div>
             <div className="modal-tech-item">
-              <img src="/HTML.svg" alt="CSS3" title="CSS3" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
             </div>
           </div>
         </div>
