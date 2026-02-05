@@ -22,7 +22,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-section">
         <img
-          src="./headshot.jpg"
+          src="./Headshot.jpg"
           alt="Orlando Castillo headshot"
           className="hero-img"
         />
