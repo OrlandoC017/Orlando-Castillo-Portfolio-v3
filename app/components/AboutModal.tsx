@@ -33,30 +33,33 @@ export default function AboutModal({ show, onClose }: { show: boolean; onClose: 
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={e => e.stopPropagation()}>
         <div className="modal-left">
-          <div className="modal-about-text">
-            <p>
-              If you're looking for a developer who combines technical expertise with creativity and a drive for results, let's connect! I'm eager to bring my skills and energy to a forward-thinking team. <b>Recruiters and hiring managers:</b> feel free to reach out—I'd love to discuss how I can contribute to your organization and help build something amazing together.
-            </p>
-          </div>
-          <div className="modal-tech-stack">
-            <div className="modal-tech-item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+          <div className="modal-left-center">
+            <div className="modal-about-text">
+              <p>
+                If you're looking for a developer who combines technical expertise with creativity and a drive for results, let's connect! I'm eager to bring my skills and energy to a forward-thinking team. <b>Recruiters and hiring managers:</b> feel free to reach out—I'd love to discuss how I can contribute to your organization and help build something amazing together.
+              </p>
             </div>
-            <div className="modal-tech-item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" title="Next.js" />
+            <div className="modal-tech-stack">
+              <div className="modal-tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+              </div>
+              <div className="modal-tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" title="Next.js" />
+              </div>
+              <div className="modal-tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" />
+              </div>
+              <div className="modal-tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
+              </div>
+              <div className="modal-tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
+              </div>
+              <div className="modal-tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
+              </div>
             </div>
-            <div className="modal-tech-item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" />
-            </div>
-            <div className="modal-tech-item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
-            </div>
-            <div className="modal-tech-item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
-            </div>
-            <div className="modal-tech-item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
-            </div>
+            <button className="modal-connect-btn">Let's Connect</button>
           </div>
         </div>
         <div className="modal-right">

@@ -13,7 +13,7 @@ export default function Home() {
       <header className="header">
         <div className="header-title">Orlando Castillo</div>
         <nav className="header-nav">
-          <div className="header-btn--wrapper"><button className="hero-btn" onClick={e => { e.preventDefault(); setShowModal(true); }}>Let's Connect</button></div>
+          <div className="header-btn--wrapper"><button className="header-btn" onClick={e => { e.preventDefault(); setShowModal(true); }}>Let's Connect</button></div>
           
         </nav>
       </header>
