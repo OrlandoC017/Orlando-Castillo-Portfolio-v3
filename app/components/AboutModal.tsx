@@ -33,10 +33,8 @@ export default function AboutModal({ show, onClose }: { show: boolean; onClose: 
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={e => e.stopPropagation()}>
         <div className="modal-left">
-          <h2>About Me</h2>
           <div className="modal-about-text">
             <p>
-              Hi! I'm Orlando Castillo, a web developer passionate about building beautiful and functional web experiences.<br /><br />
               If you're looking for a developer who combines technical expertise with creativity and a drive for results, let's connect! I'm eager to bring my skills and energy to a forward-thinking team. <b>Recruiters and hiring managers:</b> feel free to reach out—I'd love to discuss how I can contribute to your organization and help build something amazing together.
             </p>
           </div>

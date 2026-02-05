@@ -13,9 +13,8 @@ export default function Home() {
       <header className="header">
         <div className="header-title">Orlando Castillo</div>
         <nav className="header-nav">
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-          <a href="#" onClick={e => { e.preventDefault(); setShowModal(true); }}>About</a>
+          <div className="header-btn--wrapper"><button className="hero-btn" onClick={e => { e.preventDefault(); setShowModal(true); }}>Let's Connect</button></div>
+          
         </nav>
       </header>
 
