@@ -138,8 +138,27 @@ html {
   align-items: center;
   justify-content: center;
   z-index: 1000;
-  transition: background 0.3s;
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
 }
+
+.modal-overlay.modal-opening {
+  animation: fadeInOverlay 0.3s ease-out;
+}
+
+.modal-overlay.modal-closing {
+  opacity: 0;
+}
+
+@keyframes fadeInOverlay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .modal-content {
   background: #fff;
   border-radius: 1rem;
@@ -151,11 +170,34 @@ html {
   min-height: 400px;
   position: relative;
   overflow: hidden;
+  transform: scale(1);
+  transition: transform 0.3s ease-out;
+}
+
+.modal-content.modal-opening {
+  animation: slideInContent 0.3s ease-out;
+}
+
+.modal-content.modal-closing {
+  transform: scale(0.95);
+  opacity: 0;
+}
+
+@keyframes slideInContent {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 .modal-left {
   flex: 1;
   padding: 2rem;
-  background: #f7fafc;
+  background: rgb(8, 8, 155);
+  color: #fff;
   border-right: 1px solid #e5e7eb;
   display: flex;
   flex-direction: column;
@@ -171,22 +213,20 @@ html {
   width: 100%;
   padding: 0 1rem;
 }
+
+
 .modal-tech-item {
-  width: 100%;
-  aspect-ratio: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-  transition: all 0.2s;
-  cursor: pointer;
+	aspect-ratio: 1;
+	cursor: pointer;
+	border-radius: 25px;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	transition: all .2s;
+	display: flex;
+	
 }
-.modal-tech-item:hover {
-  background: #e0e7ff;
-  border-color: #6366f1;
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(99,102,241,0.15);
-}
+
 .modal-tech-item img {
   width: 32px;
   height: 32px;

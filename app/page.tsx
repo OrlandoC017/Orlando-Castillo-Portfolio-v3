@@ -73,10 +73,16 @@ export default function Home() {
               image = "/Movie Database Site.png"
               />
               <ProjectCard
-              title="Skinstric Project"
-              description="Internship project, using NextJS. This is a website built from the ground up, and it is where users can upload pictures of themselves, or take a picture with their webcams. Using the power of A.I, the website can analyze the image and determine characteristics such as age, race, and gender."
+              title="NFT Marketplace"
+              description="An advanced project that demonstrates my skills in web development and design. This is a book website, complete with an audio player with each book. You'll have the ability to listen to the books while reading along. Website features the ability to log in and log out, as well as upgrade to a premium account. To try out a 'premium' account, use the credentials embedded on the login modal. This project was created with NextJs, Typescript, Firebase, and Redux."
               link="https://orlando-castillo-skinstric-project.vercel.app/"
-              image = "/Skinstric.png"
+              image = "/NFT Ultraverse.png"
+              />
+              <ProjectCard
+              title="Summarist Advanced Project"
+              description="An advanced project that demonstrates my skills in web development and design. This is a book website, complete with an audio player with each book. You'll have the ability to listen to the books while reading along. Website features the ability to log in and log out, as well as upgrade to a premium account. To try out a 'premium' account, use the credentials embedded on the login modal. This project was created with NextJs, Typescript, Firebase, and Redux."
+              link="https://orlando-castillo-skinstric-project.vercel.app/"
+              image = "/Summarist.png"
               />
               <ProjectCard
               title="Skinstric Project"
@@ -105,9 +111,6 @@ export default function Home() {
       {/* Footer */}
       <footer id="contact" className="footer">
         <div className="mb-2">&copy; {new Date().getFullYear()} Orlando Castillo. All rights reserved.</div>
-        <div>
-          <a href="mailto:your.email@example.com">your.email@example.com</a>
-        </div>
       </footer>
 
       <AboutModal show={showModal} onClose={() => setShowModal(false)} />
