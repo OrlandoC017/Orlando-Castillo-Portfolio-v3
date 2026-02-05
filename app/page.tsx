@@ -47,12 +47,12 @@ export default function Home() {
         <h2 className="tech-stack-title">Tech Stack</h2>
         <div className="tech-stack-list">
           {/* Add or edit your tech stack icons and names here */}
-          <div className="tech-item"><img src="./react.svg" alt="React" className="tech-icon" /> <span className="tech-text">React</span></div>
-          <div className="tech-item"><img src="./next-js.svg" alt="Next.js" className="tech-icon" /> <span className="tech-text">Next.js</span></div>
-          <div className="tech-item"><img src="./typescript.svg" alt="TypeScript" className="tech-icon" /> <span className="tech-text">TypeScript</span></div>
-          <div className="tech-item"><img src="./javascript.svg" alt="JavaScript" className="tech-icon" /> <span className="tech-text">JavaScript</span></div>
-          <div className="tech-item"><img src="./css3.svg" alt="CSS3" className="tech-icon" /> <span className="tech-text">CSS3</span></div>
-          <div className="tech-item"><img src="./HTML.svg" alt="HTML5" className="tech-icon" /> <span className="tech-text">HTML5</span></div>
+          <div className="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="tech-icon" /> <span className="tech-text">React</span></div>
+          <div className="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" className="tech-icon" /> <span className="tech-text">Next.js</span></div>
+          <div className="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="tech-icon" /> <span className="tech-text">TypeScript</span></div>
+          <div className="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" className="tech-icon" /> <span className="tech-text">JavaScript</span></div>
+          <div className="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" className="tech-icon" /> <span className="tech-text">CSS3</span></div>
+          <div className="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" className="tech-icon" /> <span className="tech-text">HTML5</span></div>
           {/* Add more as needed */}
         </div>
       </section>
