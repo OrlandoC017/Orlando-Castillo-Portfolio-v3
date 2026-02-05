@@ -22,7 +22,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-section">
         <img
-          src="/headshot.jpg"
+          src="./headshot.jpg"
           alt="Orlando Castillo headshot"
           className="hero-img"
         />
@@ -47,12 +47,12 @@ export default function Home() {
         <h2 className="tech-stack-title">Tech Stack</h2>
         <div className="tech-stack-list">
           {/* Add or edit your tech stack icons and names here */}
-          <div className="tech-item"><img src="/react.svg" alt="React" className="tech-icon" /> <span className="tech-text">React</span></div>
-          <div className="tech-item"><img src="/next-js.svg" alt="Next.js" className="tech-icon" /> <span className="tech-text">Next.js</span></div>
-          <div className="tech-item"><img src="/typescript.svg" alt="TypeScript" className="tech-icon" /> <span className="tech-text">TypeScript</span></div>
-          <div className="tech-item"><img src="/javascript.svg" alt="JavaScript" className="tech-icon" /> <span className="tech-text">JavaScript</span></div>
-          <div className="tech-item"><img src="/css3.svg" alt="CSS3" className="tech-icon" /> <span className="tech-text">CSS3</span></div>
-          <div className="tech-item"><img src="/HTML.svg" alt="HTML5" className="tech-icon" /> <span className="tech-text">HTML5</span></div>
+          <div className="tech-item"><img src="./react.svg" alt="React" className="tech-icon" /> <span className="tech-text">React</span></div>
+          <div className="tech-item"><img src="./next-js.svg" alt="Next.js" className="tech-icon" /> <span className="tech-text">Next.js</span></div>
+          <div className="tech-item"><img src="./typescript.svg" alt="TypeScript" className="tech-icon" /> <span className="tech-text">TypeScript</span></div>
+          <div className="tech-item"><img src="./javascript.svg" alt="JavaScript" className="tech-icon" /> <span className="tech-text">JavaScript</span></div>
+          <div className="tech-item"><img src="./css3.svg" alt="CSS3" className="tech-icon" /> <span className="tech-text">CSS3</span></div>
+          <div className="tech-item"><img src="./HTML.svg" alt="HTML5" className="tech-icon" /> <span className="tech-text">HTML5</span></div>
           {/* Add more as needed */}
         </div>
       </section>
