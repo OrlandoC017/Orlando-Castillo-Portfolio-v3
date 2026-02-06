@@ -64,30 +64,42 @@ export default function Home() {
               title="T-React Website"
               description="Template website created from the ground up, using basic HTML and CSS. I learned the fundamentals of web development and responsive design, and put them into practice for this site."
               link="https://orlandoc017.github.io/Module-2-Final-Project/"
+              git="https://github.com/OrlandoC017/Module-2-Final-Project"
               image = "/T-React Site.png"
               />
               <ProjectCard
               title="Movie Database Website"
               description="This project uses React and the TMDB API to display movie information. Users can search for movies, view details, and explore popular films."
               link="https://module-6-react-final-project.vercel.app/"
+              git="https://github.com/OrlandoC017/Module-6-React-Final-Project"
               image = "/Movie Database Site.png"
+              />
+              <ProjectCard
+              title="Library Project"
+              description="E-Commerce website create with NextJS. Learned and practiced about dynamic routing on this project, so you'll be able to navigate between different pages and view product details. On top of that, users can 'add to cart' and manage their shopping experience."
+              link="https://library-next-js-site.vercel.app/"
+              git="https://github.com/OrlandoC017/Library-NextJs-Site"
+              image = "/Library.png"
               />
               <ProjectCard
               title="NFT Marketplace"
               description="An advanced project that demonstrates my skills in web development and design. This is a book website, complete with an audio player with each book. You'll have the ability to listen to the books while reading along. Website features the ability to log in and log out, as well as upgrade to a premium account. To try out a 'premium' account, use the credentials embedded on the login modal. This project was created with NextJs, Typescript, Firebase, and Redux."
-              link="https://orlando-castillo-skinstric-project.vercel.app/"
+              link="https://orlando-castillo-nft-ultraverse-pro.vercel.app/"
+              git="https://github.com/OrlandoC017/orlandoc-internship/tree/main"
               image = "/NFT Ultraverse.png"
               />
               <ProjectCard
               title="Summarist Advanced Project"
               description="An advanced project that demonstrates my skills in web development and design. This is a book website, complete with an audio player with each book. You'll have the ability to listen to the books while reading along. Website features the ability to log in and log out, as well as upgrade to a premium account. To try out a 'premium' account, use the credentials embedded on the login modal. This project was created with NextJs, Typescript, Firebase, and Redux."
-              link="https://orlando-castillo-skinstric-project.vercel.app/"
+              link="https://orlandoc-summarist-project.vercel.app/"
+              git="https://github.com/OrlandoC017/orlandoc-advanced-project"
               image = "/Summarist.png"
               />
               <ProjectCard
               title="Skinstric Project"
               description="Internship project, using NextJS. This is a website built from the ground up, and it is where users can upload pictures of themselves, or take a picture with their webcams. Using the power of A.I, the website can analyze the image and determine characteristics such as age, race, and gender."
               link="https://orlando-castillo-skinstric-project.vercel.app/"
+              git="https://github.com/OrlandoC017/Orlando-Castillo-Skinstric-Project"
               image = "/Skinstric.png"
               />
             </div>

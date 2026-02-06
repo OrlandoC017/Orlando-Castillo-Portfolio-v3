@@ -148,7 +148,6 @@ html {
 
 .modal-overlay.modal-closing {
   opacity: 0;
-  pointer-events: none;
 }
 
 @keyframes fadeInOverlay {
@@ -364,6 +363,10 @@ html {
   object-fit: cover;
   border-radius: 0.75rem;
   display: block;
+}
+
+.project-card-link {
+  margin-right: 25px;
 }
 @import "tailwindcss";
 
@@ -643,9 +646,6 @@ body {
 }
 .project-card:hover .project-card-link {
   color: #4f46e5;
-}
-.project-card:hover .project-card-link svg {
-  transform: rotate(45deg) scale(1.1);
 }
 
 .about-section {
