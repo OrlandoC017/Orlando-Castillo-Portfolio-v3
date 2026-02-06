@@ -79,7 +79,7 @@ export default function AboutModal({ show, onClose }: { show: boolean; onClose: 
     }
   };
 
-  if (!show && !isClosing) return null;
+  if (!show) return null;
   return (
     <div className={`modal-overlay ${isClosing ? "modal-closing" : "modal-opening"}`} onClick={handleClose}>
       <div className={`modal-content ${isClosing ? "modal-closing" : "modal-opening"}`} onClick={e => e.stopPropagation()}>
