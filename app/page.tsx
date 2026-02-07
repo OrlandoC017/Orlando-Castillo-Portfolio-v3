@@ -1,11 +1,20 @@
 "use client"
 import ProjectCard from "./components/ProjectCard";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AboutModal from "./components/AboutModal";
 import { Github, FileUser, Linkedin  } from 'lucide-react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
 
   return (
     <div className="portfolio-bg">
@@ -18,7 +27,7 @@ export default function Home() {
         </nav>
       </header>
 
-      {/* Hero Section */}
+      <div data-aos="fade-up">{/* Hero Section */}
       <section className="hero-section">
         <img
           src="./Headshot.jpg"
@@ -39,10 +48,11 @@ export default function Home() {
           </a>
         </div>
         <button onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })} className="hero-btn">View My Work</button>
-      </section>
+      </section></div>
+      
 
       {/* Tech Stack Section */}
-      <section className="tech-stack-section">
+      <section className="tech-stack-section" data-aos="flip-left">
         <h2 className="tech-stack-title">Tech Stack</h2>
         <div className="tech-stack-list">
           {/* Add or edit your tech stack icons and names here */}
@@ -57,7 +67,7 @@ export default function Home() {
       </section>
 
       {/* Projects Grid */}
-      <section id="projects" className="projects-section">
+      <section id="projects" className="projects-section" data-aos="fade-up">
         <h2 className="projects-title">My Projects</h2>
         <div className="projects-grid">
               <ProjectCard
@@ -106,7 +116,7 @@ export default function Home() {
       </section>
 
       {/* About Me Section */}
-      <section className="about-section">
+      <section className="about-section" data-aos="fade-up">
         <div className="about-container">
           <div className="about-left">
             <img src="/me-diver.jpg" alt="About me" className="about-img" />
