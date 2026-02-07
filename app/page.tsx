@@ -34,7 +34,7 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/orlando-castillo-01/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="hero-icon-link">
             <Linkedin size={24} />
           </a>
-          <a href="https://1drv.ms/w/c/d5cccfb5ca94cb8c/IQCqlUk639xQQ42x777NCHhRAezC8eIUDkD1tyiOPrsoLYw?e=v3A33i" className="hero-icon-link">
+          <a href="https://1drv.ms/w/c/d5cccfb5ca94cb8c/IQCqlUk639xQQ42x777NCHhRAezC8eIUDkD1tyiOPrsoLYw?e=v3A33i" target="_blank" className="hero-icon-link">
             <FileUser size={24} />
           </a>
         </div>
