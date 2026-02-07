@@ -71,7 +71,7 @@ export default function Home() {
               title="Movie Database Website"
               description="This project uses React and the TMDB API to display movie information. Users can search for movies, view details, and explore popular films."
               link="https://module-6-react-final-project.vercel.app/"
-              git="https://github.com/OrlandoC017/Module-6-React-Final-Project"
+              git="https://github.com/OrlandoC017/Module-6---React-Final-Project"
               image = "/Movie Database Site.png"
               />
               <ProjectCard
