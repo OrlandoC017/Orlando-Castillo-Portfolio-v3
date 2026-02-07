@@ -58,7 +58,7 @@ export default function Home() {
 
       {/* Projects Grid */}
       <section id="projects" className="projects-section">
-        <h2 className="projects-title">Projects</h2>
+        <h2 className="projects-title">My Projects</h2>
         <div className="projects-grid">
               <ProjectCard
               title="T-React Website"
@@ -83,7 +83,7 @@ export default function Home() {
               />
               <ProjectCard
               title="NFT Marketplace"
-              description="An advanced project that demonstrates my skills in web development and design. This is a book website, complete with an audio player with each book. You'll have the ability to listen to the books while reading along. Website features the ability to log in and log out, as well as upgrade to a premium account. To try out a 'premium' account, use the credentials embedded on the login modal. This project was created with NextJs, Typescript, Firebase, and Redux."
+              description="Marketplace for NFTs, built with NextJS. Users can browse, buy, and sell NFTs in a decentralized environment. This website features a sleek and modern design, making it easy for users to navigate and interact with the platform. I hit multiple APIs to fetch NFT data and display it dynamically. You'll have the ability to view profiles for every NFT, as well as the profiles of the creators, which was made possible through dynamic routing."
               link="https://orlando-castillo-nft-ultraverse-pro.vercel.app/"
               git="https://github.com/OrlandoC017/orlandoc-internship/tree/main"
               image = "/NFT Ultraverse.png"
