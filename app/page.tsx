@@ -130,12 +130,22 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact */}
+      <div className="contact-container">
+        <h1 className="contact-title">Contact Me Here!</h1>
+        <div className="header-btn--wrapper"><button className="header-btn" onClick={e => { e.preventDefault(); setShowModal(true); }}>Let's Connect</button></div>
+      </div>
+
       {/* Footer */}
       <footer id="contact" className="footer">
         <div className="mb-2">&copy; {new Date().getFullYear()} Orlando Castillo. All rights reserved.</div>
       </footer>
 
       <AboutModal show={showModal} onClose={() => setShowModal(false)} />
+
+        
+      
+
     </div>
   );
 }
